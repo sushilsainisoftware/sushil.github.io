@@ -1,0 +1,50 @@
+
+/*-------- ironman animations start -------------*/
+.ironman_contact
+{
+  width: 100%;
+ height: 100px;
+ position:relative;
+  
+}
+.ironman_contact img
+{
+  width: 100px;
+  height: 150px;
+  position: absolute;
+ 
+  animation-name: i;
+  animation-duration: 5s;
+  animation-direction: reverse;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  
+}
+
+@keyframes i{
+  from{left:0}
+  to{left:20%}
+  to{left:100%}
+}
+
+
+
+
+/*-------- end ironman  animation -------------*/
+
+/*di red color hover */
+.dil{
+  color:white;
+  height: 1px;
+  transition-property: transform;
+  transition-duration: 2s;
+
+}
+
+.dil:hover{
+  color:red;
+  
+  transform: rotate3d();
+}
+
+/*di red color hover */
