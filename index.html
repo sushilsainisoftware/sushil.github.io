@@ -1,426 +1,911 @@
 <!DOCTYPE html>
-<html lang="zxx" class="no-js">
+<html lang="zxx">
 
 <head>
-	<!-- Mobile Specific Meta -->
-	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<!-- Favicon-->
-	<link rel="shortcut icon" href="img/fav.png">
-	<link rel="icon" href="img/favicon.ico" type="image/x-icon">
-	<!-- Author Meta -->
-	<meta name="author" content="Sushil">
-	<!-- Meta Description -->
-	<meta name="description" content="sushil saini">
-	<!-- Meta Keyword -->
-	<meta name="keywords" content="sushil saini">
-	<!-- meta character set -->
-	<meta charset="UTF-8">
-	<!-- Site Title -->
-	<title>Sushil Saini</title>
-
-	<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,400,300,500,600,700" rel="stylesheet">
-	<!--
-			CSS
-			============================================= -->
-	<link rel="stylesheet" href="css/linearicons.css">
-	<link rel="stylesheet" href="css/font-awesome.min.css">
-	<link rel="stylesheet" href="css/bootstrap.css">
-	<link rel="stylesheet" href="css/magnific-popup.css">
-	<link rel="stylesheet" href="css/jquery-ui.css">
-	<link rel="stylesheet" href="css/nice-select.css">
-	<link rel="stylesheet" href="css/animate.min.css">
-	<link rel="stylesheet" href="css/owl.carousel.css">
-	<link rel="stylesheet" href="css/main.css">
+  <meta charset="utf-8" />
+  <title>Sushil Saini</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+  <!-- favi icon  -->
+  <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-32x32.png"> 
+  <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon.ico"> 
+  <!-- font awesome -->
+  <link rel="stylesheet" type="text/css" href="css/font-awesome.css" />
+  <!-- main css -->
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+  <!-- Responsive css  -->
+  <link rel="stylesheet" type="text/css" href="css/responsive.css" />
+  <link rel="stylesheet" href="css/skins/color-1.css">
+  <!-- style switcher -for demo purpose only  -->
+  <link rel="stylesheet" type="text/css" class="alternate-style" title="color-1" href="css/skins/color-1.css" disabled>
+  <link rel="stylesheet" type="text/css" class="alternate-style" title="color-2" href="css/skins/color-2.css" disabled>
+  <link rel="stylesheet" type="text/css" class="alternate-style" title="color-3" href="css/skins/color-3.css" disabled>
+  <link rel="stylesheet" type="text/css" class="alternate-style" title="color-4" href="css/skins/color-4.css" disabled>
+  <link rel="stylesheet" type="text/css" class="alternate-style" title="color-5" href="css/skins/color-5.css" disabled>
+  <link rel="stylesheet" href="css/style-switcher.css">
 </head>
 
 <body>
-	<header id="header">
-		<div class="container main-menu">
-			<div class="row align-items-center justify-content-between d-flex">
-				<div id="logo">
-					<a href="index.html"><img src="img/logo.png" alt="" title="" /></a>
-				</div>
-				<nav id="nav-menu-container">
-					<ul class="nav-menu">
-						<li><a href="index.html">Home</a></li>
-						<li><a href="about.html">About</a></li>
-						<li><a href="portfolio.html">Portfolio</a></li>
-						<li><a href="contact.html">Contact</a></li>
-					</ul>
-				</nav><!-- #nav-menu-container -->
-			</div>
-		</div>
-	</header><!-- #header -->
+  <!-- preloader start  -->
+  <div class="preloader">
+    <div class="box">
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+  </div>
+  <!-- preloader End -->
 
-	<!-- start banner Area -->
-	<section class="banner-area">
-		<div class="container">
-			<div class="row fullscreen align-items-center justify-content-between">
-				<div class="col-lg-6 col-md-6 banner-left">
-					<h6>This is me</h6>
-					<h1>Sushil Saini</h1>
-					<p>
-						Full Stack Developer with 3+ years of hands-on experience designing, developing, and
-						implementing applications and solutions using a range of technologies and programming languages.
-						Seeking to leverage broad development experience and hands-on technical expertise in a
-						challenging role as a Full-stack Developer.
-					</p>
-					<a href="#" class="primary-btn text-uppercase">discover now</a>
-				</div>
-				<div class="col-lg-6 col-md-6 banner-right d-flex align-self-end">
-					<img class="img-fluid" src="img/hero-img.png" alt="">
-				</div>
-			</div>
-		</div>
-	</section>
-	<!-- End banner Area -->
+  <!-- header start -->
+  <header class="header">
+    <div class="container">
+      <div class="row justify-content-between">
+        <div class="logo">
+          <a href="index.html"> s</a>
+        </div>
+        <div class="hamburger-btn outdor-shadow hover-in-shadow">
+          <span></span>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!------ header End------>
+  <!-- navigation menu start here -->
+  <nav class="nav-menu">
+    <div class="close-nav-menu outer-shadow hover-in-shadow">&times;</div>
+    <div class="nav-menu-inner">
+      <ul>
+        <li><a href="#home" class=" link-item inner-shadow active">home</a></li>
+        <li><a href="#about" class="link-item outer-shadow hover-in-shadow">about</a></li>
+        <li><a href="#services" class=" link-item outer-shadow hover-in-shadow">services</a></li>
+        <li>
+          <a href="#portfolio" class="link-item outer-shadow hover-in-shadow">portfolio</a>
+        </li>
+        <li>
+          <a href="#testimonial" class="link-item outer-shadow hover-in-shadow">testimonial</a>
+        </li>
+        <li><a href="#contact" class="link-item outer-shadow hover-in-shadow">contact</a></li>
+      </ul>
+    </div>
+    <!-- copyright text  -->
+    <p class="copyright-text">&copy; 2020 Sushil</p>
+  </nav>
+  <div class="fade-out-effect">
 
-	<!-- Start home-about Area -->
-	<section class="home-about-area pt-120">
-		<div class="container">
-			<div class="row align-items-center justify-content-between">
-				<div class="col-lg-6 col-md-6 home-about-left">
-					<img class="img-fluid" src="img/about-img.png" alt="">
-				</div>
-				<div class="col-lg-5 col-md-6 home-about-right">
-					<h6>About Me</h6>
-					<h1 class="text-uppercase">Personal Details</h1>
-					<p>
-						Passionate front-end web developer with 3 years of experience using JavaScript, HTML5, and CSS
-						to build all aspects of the user experience and user interface for client-facing landing pages.
-						Specializes in using jQuery and AngularJS to build e-commerce sites.
-					</p>
-					<a href="about.html" class="primary-btn text-uppercase">View Full Details</a>
-				</div>
-			</div>
-		</div>
-	</section>
-	<!-- End home-about Area -->
+  </div>
+  <!-- navigation menu end  -->
+  <!-- home section start  -->
+  <section class="home-section section active" id="home">
+    <!-- effect wrap start ---->
+    <div class="effect-wrap">
+      <div class="effect effect-1"></div>
+      <div class="effect effect-2">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+      <div class="effect effect-3"></div>
+      <div class="effect effect-4"></div>
+      <div class="effect effect-5">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+    </div>
+    <!-- effect wrap end  -->
+    <div class="container">
+      <div class="row full-screen align-item-center">
+        <div class="home-text">
+          <p>Hello</p>
+          <h2>I'm Sushil Saini</h2>
+          <h1>Web Designer & Developer</h1>
+          <a href="#about" class="link-item btn-1 outer-shadow hover-in-shadow"> More About Me</a>
+        </div>
+        <div class="home-img">
+          <div class="img-box inner-shadow">
+            <img src="img/profile-pic.png" class="outer-shadow" alt="profile-pic">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- home section end  -->
+  <!-- about section start  -->
+  <section class="about-section section" id="about">
+    <div class="container">
+      <div class="row">
+        <div class="section-title">
+          <h2 data-heading="main info">About Me</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="about-img">
+          <div class=" img-box inner-shadow">
+            <img src="img/profile-pic.png" class="outer-shadow" alt="profile-pic">
+          </div>
+          <!-- social links start  -->
+          <div class="social-links">
+            <a href="https://www.facebook.com/sushil.saini.96199" class="outer-shadow hover-in-shadow"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" class="outer-shadow hover-in-shadow"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.instagram.com/sushilsaini.8.8.95/" class="outer-shadow hover-in-shadow"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/sushil-saini-221997173/" class="outer-shadow hover-in-shadow"><i class="fab fa-linkedin-in"></i></a>
+          </div>
+          <!-- social link end  -->
+        </div>
+        <div class="about-info">
+          <p><span>Hi! My name is The Sushil Saini. I am a Front-End Developer.</span>  with 2+ years of hands-on experience designing, developing, and implementing applications and solutions using a range of technologies and programming languages. Seeking to leverage broad development experience and hands-on technical expertise in a challenging role as a Front-End Developer. </p>
+          <p>Passionate front-end web developer with 2 years of experience using JavaScript, bootstrap, HTML5, and CSS to build all aspects of the user experience and user interface for client-facing landing pages.</p>
+          <p>I Have Knowleage of ASP.Net, C#, sql, Visual Studio, HTML5, Css3, bootstrap, JavaScript, jQuery, angular, React, Node.js, mongoDB, Express.js, sql, c#, asp.net.</p>
+          <a href="cv.pdf" class=" btn-1 outer-shadow hover-in-shadow">Download CV</a>
+          <a href="#contact" class="link-item btn-1 outer-shadow hover-in-shadow">Hire Me</a>
+        </div>
+      </div>
+      <!-- about tabs start  -->
+      <div class="row">
+        <div class="about-tabs">
+          <span class="tab-item outer-shadow active" data-target=".skills">skills</span>
+          <span class="tab-item" data-target=".experience">experience</span>
+          <span class="tab-item" data-target=".education">education</span>
+        </div>
+      </div>
+      <!-- about tabs end  -->
+      <!-- skills start  -->
+      <div class="row">
+        <div class="skills tab-content active">
+          <div class="row">
+            <!-- skills item start  -->
+            <div class="skill-item">
+              <p>HTML</p>
+              <div class="progress inner-shadow">
+                <div class="progress-bar" style="width: calc(70% - 14px);">
+                  <span>70%</span>
+                </div>
+              </div>
+            </div>
+            <!-- skills item end  -->
+            <!-- skills item start  -->
+            <div class="skill-item">
+              <p>CSS</p>
+              <div class="progress inner-shadow">
+                <div class="progress-bar" style="width: calc(60% - 14px);">
+                  <span>60%</span>
+                </div>
+              </div>
+            </div>
+            <!-- skills item end  -->
+            <!-- skills item start  -->
+            <div class="skill-item">
+              <p>javascript</p>
+              <div class="progress inner-shadow">
+                <div class="progress-bar" style="width: calc(50% - 14px);">
+                  <span>50%</span>
+                </div>
+              </div>
+            </div>
+            <!-- skills item end  -->
+            <!-- skills item start  -->
+            <div class="skill-item">
+              <p>bootstrap</p>
+              <div class="progress inner-shadow">
+                <div class="progress-bar" style="width: calc(70% - 14px);">
+                  <span>70%</span>
+                </div>
+              </div>
+            </div>
+            <!-- skills item end  -->
+            <!-- skills item start  -->
+            <div class="skill-item">
+              <p>jquery</p>
+              <div class="progress inner-shadow">
+                <div class="progress-bar" style="width: calc(80% - 14px);">
+                  <span>80%</span>
+                </div>
+              </div>
+            </div>
+            <!-- skills item end  -->
+            <!-- skills item start  -->
+            <div class="skill-item">
+              <p>React</p>
+              <div class="progress inner-shadow">
+                <div class="progress-bar" style="width: calc(40% - 14px);">
+                  <span>40%</span>
+                </div>
+              </div>
+            </div>
+            <!-- skills item end  -->
+            <!-- skills item start  -->
+            <div class="skill-item">
+              <p>Angular</p>
+              <div class="progress inner-shadow">
+                <div class="progress-bar" style="width: calc(40% - 14px);">
+                  <span>40%</span>
+                </div>
+              </div>
+            </div>
+            <!-- skills item end  -->
+          </div>
+        </div>
+      </div>
+      <!-- skils end  -->
+      <!-- experience start  -->
+      <div class="row">
+        <div class="experience tab-content">
+          <div class="row">
+            <div class="timeline">
+              <div class="row">
+                <!-- timeline item start  -->
+                <div class="timeline-item">
+                  <div class="timeline-item-inner outer-shadow">
+                    <i class="fas fa-briefcase icon"></i>
 
-	<!-- Start services Area -->
-	<section class="services-area section-gap">
-		<div class="container">
-			<div class="row d-flex justify-content-center">
-				<div class="menu-content  col-lg-7">
-					<div class="title text-center">
-						<h1 class="mb-10">My Offered Services</h1>
-						<p>At about this time of year, some months after New Year’s resolutions have been made and kept,
-							or made and neglected.</p>
-					</div>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-lg-4 col-md-6">
-					<div class="single-services">
-						<span class="lnr lnr-pie-chart"></span>
-						<a href="#">
-							<h4>Web Design</h4>
-						</a>
-						<p>
-							“It is not because things are difficult that we do not dare; it is because we do not dare
-							that they are difficult.”
-						</p>
-					</div>
-				</div>
-				<div class="col-lg-4 col-md-6">
-					<div class="single-services">
-						<span class="lnr lnr-laptop-phone"></span>
-						<a href="#">
-							<h4>Web Development</h4>
-						</a>
-						<p>
-							If you are an entrepreneur, you know that your success cannot depend on the opinions of
-							others. Like the wind, opinions.
-						</p>
-					</div>
-				</div>
-				<div class="col-lg-4 col-md-6">
-					<div class="single-services">
-						<span class="lnr lnr-tablet"></span>
-						<a href="#">
-							<h4>Android Developer</h4>
-						</a>
-						<p>
-							Do you want to be even more successful? Learn to love learning and growth. The more effort
-							you put into improving your skills.
-						</p>
-					</div>
-				</div>
-				<div class="col-lg-4 col-md-6">
-					<div class="single-services">
-						<span class="lnr lnr-picture"></span>
-						<a href="#">
-							<h4>SEO</h4>
-						</a>
-						<p>
-							Hypnosis quit smoking methods maintain caused quite a stir in the medical world over the
-							last two decades. There is a lot of argument.
-						</p>
-					</div>
-				</div>
-				<div class="col-lg-4 col-md-6">
-					<div class="single-services">
-						<span class="lnr lnr-tablet"></span>
-						<a href="#">
-							<h4>Apps Interface</h4>
-						</a>
-						<p>
-							Do you sometimes have the feeling that you’re running into the same obstacles over and over
-							again? Many of my conflicts.
-						</p>
-					</div>
-				</div>
-				<div class="col-lg-4 col-md-6">
-					<div class="single-services">
-						<span class="lnr lnr-rocket"></span>
-						<a href="#">
-							<h4>Graphic Design</h4>
-						</a>
-						<p>
-							You’ve heard the expression, “Just believe it and it will come.” Well, technically, that is
-							true, however, ‘believing’ is not just thinking that.
-						</p>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-	<!-- End services Area -->
+                    <span>Nov 2020 - Present</span>
+                    <h3>Front-End developer</h3>
+                    <h4>Cantik Technologies, Gurugram, India</h4>
+                    <p>Front-End  developer responsible for end-to-end web app development using JavaScript, bootstrap, HTML5, and CSS to build all aspects of the user experience and user interface for client-facing landing pages.</p>
+                  </div>
 
-	<!-- Start fact Area -->
-	<section class="brands-area">
-		<div class="container">
-			<div class="brand-wrap">
+                </div>
+                <!-- timeline item end  -->
+                <!-- timeline item start  -->
+                <div class="timeline-item">
+                  <div class="timeline-item-inner outer-shadow">
+                    <i class="fas fa-briefcase icon"></i>
+                    <span>sep 2018 - Feb 2020</span>
+                    <h3>Front-End developer</h3>
+                    <h4>SaraWebSolution, Delhi, India</h4>
+                    <p>Worked as a Front end Developer create the Work closely with programmers and clients to meet project requirements, goals, and desired functionality. <br> developed websites from front-end  technology  using   HTML, css and JavaScript. </p>
+                  </div>
+                </div>
+                <!-- timeline item end  -->                
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- experience end  -->
+        <!-- education start  -->
+        <div class="row">
+          <div class="education tab-content">
+            <div class="row">
+              <div class="timeline">
+                <div class="row">
+                  <!-- timeline item start  -->
+                  <div class="timeline-item">
+                    <div class="timeline-item-inner outer-shadow">
+                      <i class="fas fa-graduation-cap icon"></i>
 
-				<div class="ironman_contact">
-					<img src="img/ironman.gif" alt="iron">
-				</div>
+                      <span>2018-2021</span>
+                      <h3>Masters in Computer Application</h3>
+                      <p>Result: 54% <br> Indira Gandhi National Open University (IGNOU). </p>
+                    </div>
 
-			</div>
-		</div>
-	</section>
+                  </div>
+                  <!-- timeline item end  -->
+                  <!-- timeline item start  -->
+                  <div class="timeline-item">
+                    <div class="timeline-item-inner outer-shadow">
+                      <i class="fas fa-graduation-cap icon"></i>
+                      <span>2014 - 2019</span>
+                      <h3>Bachelor in Computer Application</h3>
 
+                      <p>Result: 54% <br> Indira Gandhi National Open University (IGNOU). </p>
+                    </div>
+                  </div>
+                  <!-- timeline item end  -->
+                  <!-- timeline item start  -->
+                  <div class="timeline-item">
+                    <div class="timeline-item-inner outer-shadow">
+                      <i class="fas fa-graduation-cap icon"></i>
+                      <span>2013 - 2015</span>
+                      <h3>COE-IT ITI</h3>
 
+                      <p>Result: 78% <br>Industrial Training Institutes (ITI)</p>
+                    </div>
+                  </div>
+                  <!-- timeline item end  -->
+                   <!-- timeline item start  -->
+                   <div class="timeline-item">
+                    <div class="timeline-item-inner outer-shadow">
+                      <i class="fas fa-graduation-cap icon"></i>
+                      <span>2011 - 2013</span>
+                      <h3>12<sup>th</sup> Sr. Secondary School</h3>
 
+                      <p>Result: 73% <br>Central Board of Secondary Education (CBSE)</p>
+                    </div>
+                  </div>
+                  <!-- timeline item end  -->
+                  <!-- timeline item start  -->
+                  <div class="timeline-item">
+                    <div class="timeline-item-inner outer-shadow">
+                      <i class="fas fa-graduation-cap icon"></i>
+                      <span>2009 - 2011</span>
+                      <h3>10<sup>th</sup> Secondary School</h3>
 
+                      <p>Result: 64% <br>Central Board of Secondary Education (CBSE)</p>
+                    </div>
+                  </div>
+                  <!-- timeline item end  -->
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- education end  -->
+        </div>
+  </section>
 
-	<!-- end fact Area -->
+  <!-- about section end  -->
 
-	<!-- Start portfolio-area Area -->
-	<section class="portfolio-area section-gap" id="portfolio">
-		<div class="container">
-			<div class="row d-flex justify-content-center">
-				<div class="menu-content pb-70 col-lg-8">
-					<div class="title text-center">
-						<h1 class="mb-10">Our Latest Featured Projects</h1>
-						<p>Who are in extremely love with eco friendly system.</p>
-					</div>
-				</div>
-			</div>
+  <!-- serives section start  -->
+  <section class="service-section section" id="services">
+    <div class="container">
+      <div class="row">
+        <div class="section-title">
+          <h2 data-heading="Services">What i do</h2>
+        </div>
+      </div>
+      <div class="row">
+         <!-- servies item start  -->
+         <div class="service-item">
+          <div class="service-item-inner outer-shadow">
+            <div class="icon inner-shadow">
+              <i class="fas fa-laptop-code"></i>
+            </div>
+            <h3>Web design</h3>
+            <p>Having experienced Certified Website Designers and Developers ensures that your website will be running up to 100% of its capabilities</p>
+          </div>
+        </div>
+        <!-- servies item end  -->
 
-			<div class="filters">
-				<ul>
-					<li class="active" data-filter="*">All</li>
-					<li data-filter=".vector">Vector</li>
-					<li data-filter=".raster">Raster</li>
-					<li data-filter=".ui">UI/UX</li>
-					<li data-filter=".printing">Printing</li>
-				</ul>
-			</div>
+         <!-- servies item start  -->
+         <div class="service-item">
+          <div class="service-item-inner outer-shadow">
+            <div class="icon inner-shadow">
+              <i class="fa fa-desktop" aria-hidden="true"></i>
+            </div>
+            <h3>Web development</h3>
+            <p>Web development includes many types of web content creation.web designers have hands-on experience in developing high-performance websites</p>
+          </div>
+        </div>
+        <!-- servies item end  -->
 
-			<div class="filters-content">
-				<div class="row grid">
-					<div class="single-portfolio col-sm-4 all vector">
-						<div class="relative">
-							<div class="thumb">
-								<div class="overlay overlay-bg"></div>
-								<img class="image img-fluid" src="img/p1.jpg" alt="">
-							</div>
-							<a href="img/p1.jpg" class="img-pop-up">
-								<div class="middle">
-									<div class="text align-self-center d-flex"><img src="img/preview.png" alt=""></div>
-								</div>
-							</a>
-						</div>
-						<div class="p-inner">
-							<h4>2D Vinyl Design</h4>
-							<div class="cat">vector</div>
-						</div>
-					</div>
-					<div class="single-portfolio col-sm-4 all raster">
-						<div class="relative">
-							<div class="thumb">
-								<div class="overlay overlay-bg"></div>
-								<img class="image img-fluid" src="img/p2.jpg" alt="">
-							</div>
-							<a href="img/p2.jpg" class="img-pop-up">
-								<div class="middle">
-									<div class="text align-self-center d-flex"><img src="img/preview.png" alt=""></div>
-								</div>
-							</a>
-						</div>
-						<div class="p-inner">
-							<h4>2D Vinyl Design</h4>
-							<div class="cat">vector</div>
-						</div>
-					</div>
-					<div class="single-portfolio col-sm-4 all ui">
-						<div class="relative">
-							<div class="thumb">
-								<div class="overlay overlay-bg"></div>
-								<img class="image img-fluid" src="img/p3.jpg" alt="">
-							</div>
-							<a href="img/p3.jpg" class="img-pop-up">
-								<div class="middle">
-									<div class="text align-self-center d-flex"><img src="img/preview.png" alt=""></div>
-								</div>
-							</a>
+        <!-- servies item start  -->
+        <div class="service-item">
+          <div class="service-item-inner outer-shadow">
+            <div class="icon inner-shadow">
+              <i class="fas fa-mobile-alt"></i>
+            </div>
+            <h3>Responsive design</h3>
+            <p>Additions to your code to make websites show up perfectly on all devices—desktops, tablets, and phones</p>
+          </div>
+        </div>
+        <!-- servies item end  -->
+       
+        <!-- servies item start  -->
+        <div class="service-item">
+          <div class="service-item-inner outer-shadow">
+            <div class="icon inner-shadow">
+              <i class="fas fa-palette"></i>
+            </div>
+            <h3>Graphic design</h3>
+            <p>Lead in the design, development and implementation of the graphic.</p>
+          </div>
+        </div>
+        <!-- servies item end  -->
+        <!-- servies item start  -->
+        <div class="service-item">
+          <div class="service-item-inner outer-shadow">
+            <div class="icon inner-shadow">
+              <i class="fas fa-code"></i>
+            </div>
+            <h3>clean code</h3>
+            <p>Clean code is code that is easy to understand and easy to change.</p>
+          </div>
+        </div>
+        <!-- servies item end  -->
+        
+        <!-- servies item start  -->
+        <div class="service-item">
+          <div class="service-item-inner outer-shadow">
+            <div class="icon inner-shadow">
+              <i class="fas fa-bullhorn"></i>
+            </div>
+            <h3>Greate support </h3>
+            <p>Available for perfect time and good communicate always and solve easily</p>
+          </div>
+        </div>
+        <!-- servies item end  -->
+      </div>
+    </div>
+  </section>
+  <!-- services section end  -->
 
-						</div>
-						<div class="p-inner">
-							<h4>Creative Poster Design</h4>
-							<div class="cat">Agency</div>
-						</div>
-					</div>
-					<div class="single-portfolio col-sm-4 all printing">
-						<div class="relative">
-							<div class="thumb">
-								<div class="overlay overlay-bg"></div>
-								<img class="image img-fluid" src="img/p4.jpg" alt="">
-							</div>
-							<a href="img/p4.jpg" class="img-pop-up">
-								<div class="middle">
-									<div class="text align-self-center d-flex"><img src="img/preview.png" alt=""></div>
-								</div>
-							</a>
-						</div>
-						<div class="p-inner">
-							<h4>Embosed Logo Design</h4>
-							<div class="cat">Portal</div>
-						</div>
-					</div>
-					<div class="single-portfolio col-sm-4 all vector">
-						<div class="relative">
-							<div class="thumb">
-								<div class="overlay overlay-bg"></div>
-								<img class="image img-fluid" src="img/p5.jpg" alt="">
-							</div>
-							<a href="img/p5.jpg" class="img-pop-up">
-								<div class="middle">
-									<div class="text align-self-center d-flex"><img src="img/preview.png" alt=""></div>
-								</div>
-							</a>
-						</div>
-						<div class="p-inner">
-							<h4>3D Helmet Design</h4>
-							<div class="cat">vector</div>
-						</div>
-					</div>
-					<div class="single-portfolio col-sm-4 all raster">
-						<div class="relative">
-							<div class="thumb">
-								<div class="overlay overlay-bg"></div>
-								<img class="image img-fluid" src="img/p6.jpg" alt="">
-							</div>
-							<a href="img/p6.jpg" class="img-pop-up">
-								<div class="middle">
-									<div class="text align-self-center d-flex"><img src="img/preview.png" alt=""></div>
-								</div>
-							</a>
-						</div>
-						<div class="p-inner">
-							<h4>2D Vinyl Design</h4>
-							<div class="cat">raster</div>
-						</div>
-					</div>
-				</div>
-			</div>
+  <!-- portfolio section start -->
+  <section class="portfolio-section section" id="portfolio">
+    <div class="container">
+      <div class="row">
+        <div class="section-title">
+          <h2 data-heading="portfolio">Latest Works</h2>
 
-		</div>
-	</section>
-	<!-- End portfolio-area Area -->
+        </div>
+      </div>
+      <!-- portfolio fileter start -->
+      <div class="row">
+        <div class="portfolio-filter">
+          <span class="filter-item outer-shadow active" data-target="all">all</span>
+          <span class="filter-item" data-target="web-application">web-application</span>
+          <span class="filter-item" data-target="photoshop">photoshop</span>
+          <span class="filter-item" data-target="mobile-app">mobile-app</span>
+          <span class="filter-item" data-target="e-commerce">e-commerce</span>
+        </div>
+      </div>
+      <!-- portfolio fileter end -->
 
+      <!-- porfolio items start  -->
+      <div class="row portfolio-items">
+        <!-- portfolio item start  -->
+        <div class="portfolio-item" data-category="web-application">
+          <div class="portfolio-item-inner outer-shadow">
+            <div class="portfolio-item-img">
+              <img src="img/portfolio/thumb/project-1.png" alt="portfolio" srcset=""
+                data-screenshots="img/portfolio/large/project-1/1.png,img/portfolio/large/project-1/2.png,img/portfolio/large/project-1/3.png,img/portfolio/large/project-1/4.png,img/portfolio/large/project-1/5.png,img/portfolio/large/project-1/6.png,">
+              <!-- view project btn  -->
+              <span class="view-project">view project</span>
+            </div>
+            <p class="portfolio-item-title">personal portfolio</p>
+            <!-- portfolio item details start  -->
+            <div class="portfolio-item-details">
+              <div class="row">
+                <div class="description">
+                  <h3>project brief</h3>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, consequuntur voluptatum culpa
+                    vitae fugit doloremque reprehenderit minus esse ducimus quibusdam aperiam. Qui hic beatae quasi iste
+                    vel, distinctio ratione eius.</p>
+                </div>
+                <div class="info">
+                  <h3>project info</h3>
+                  <ul>
+                    <li>Date -<span>2020</span></li>
+                    <li>client -<span>xyz</span></li>
+                    <li>tools -<span>html, css, javascript</span></li>
+                    <li>web -<span><a href="#">www.domain.com</a></span></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <!-- portfolio items details start  -->
+          </div>
+        </div>
+        <!-- portfolio items end  -->
+        <!-- portfolio item start  -->
+        <div class="portfolio-item" data-category="web-application">
+          <div class="portfolio-item-inner outer-shadow">
+            <div class="portfolio-item-img">
+              <img src="img/portfolio/thumb/project-2.png" alt="portfolio" srcset=""
+                data-screenshots="img/portfolio/large/project-1/1.png,img/portfolio/large/project-2/2.png">
+              <!-- view project btn  -->
+              <span class="view-project">view project</span>
+            </div>
+            <p class="portfolio-item-title">wedding couple</p>
+            <!-- portfolio item details start  -->
+            <div class="portfolio-item-details">
+              <div class="row">
+                <div class="description">
+                  <h3>project brief</h3>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, consequuntur voluptatum culpa
+                    vitae fugit doloremque reprehenderit minus esse ducimus quibusdam aperiam. Qui hic beatae quasi iste
+                    vel, distinctio ratione eius.</p>
+                </div>
+                <div class="info">
+                  <h3>project info</h3>
+                  <ul>
+                    <li>Date -<span>2020</span></li>
+                    <li>client -<span>xyz</span></li>
+                    <li>tools -<span>html, css, jquery</span></li>
+                    <li>web -<span><a href="#">www.domain.com</a></span></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <!-- portfolio item details start  -->
+          </div>
+        </div>
+        <!-- portfolio item end  -->
+        <!-- portfolio item start  -->
+        <div class="portfolio-item" data-category="e-commerce">
+          <div class="portfolio-item-inner outer-shadow">
+            <div class="portfolio-item-img">
+              <img src="img/portfolio/thumb/project-3.png" alt="portfolio" srcset="" data-screenshots="img/portfolio/large/project-3/1.png,img/portfolio/large/project-3/2.png,
+                img/portfolio/large/project-3/3.png,
+                img/portfolio/large/project-3/4.png,
+                img/portfolio/large/project-3/5.png,
+                ">
+              <!-- view project btn  -->
+              <span class="view-project">view project</span>
+            </div>
+            <p class="portfolio-item-title">Product landing page</p>
+            <!-- portfolio item details start  -->
+            <div class="portfolio-item-details">
+              <div class="row">
+                <div class="description">
+                  <h3>project brief</h3>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, consequuntur voluptatum culpa
+                    vitae fugit doloremque reprehenderit minus esse ducimus quibusdam aperiam. Qui hic beatae quasi iste
+                    vel, distinctio ratione eius.</p>
+                </div>
+                <div class="info">
+                  <h3>project info</h3>
+                  <ul>
+                    <li>Date -<span>2020</span></li>
+                    <li>client -<span>xyz</span></li>
+                    <li>tools -<span>html, css, bootstrap-4</span></li>
+                    <li>web -<span><a href="#">www.domain.com</a></span></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <!-- portfolio item details start  -->
+          </div>
+        </div>
+        <!-- portfolio item end  -->
+        <!-- portfolio item start  -->
+        <div class="portfolio-item" data-category="web-application">
+          <div class="portfolio-item-inner outer-shadow">
+            <div class="portfolio-item-img">
+              <img src="img/portfolio/thumb/project-4.png" alt="portfolio" srcset=""
+                data-screenshots="img/portfolio/large/project-4/1.png">
+              <!-- view project btn  -->
+              <span class="view-project">view project</span>
+            </div>
+            <p class="portfolio-item-title">Personal Portfolio</p>
+            <!-- portfolio item details start  -->
+            <div class="portfolio-item-details">
+              <div class="row">
+                <div class="description">
+                  <h3>project brief</h3>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, consequuntur voluptatum culpa
+                    vitae fugit doloremque reprehenderit minus esse ducimus quibusdam aperiam. Qui hic beatae quasi iste
+                    vel, distinctio ratione eius.</p>
+                </div>
+                <div class="info">
+                  <h3>project info</h3>
+                  <ul>
+                    <li>Date -<span>2020</span></li>
+                    <li>client -<span>xyz</span></li>
+                    <li>tools -<span>html, css, jquery</span></li>
+                    <li>web -<span><a href="#">www.domain.com</a></span></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <!-- portfolio item details start  -->
+          </div>
+        </div>
+        <!-- portfolio item end  -->
+        <!-- portfolio item start  -->
+        <div class="portfolio-item" data-category="web-application">
+          <div class="portfolio-item-inner outer-shadow">
+            <div class="portfolio-item-img">
+              <img src="img/portfolio/thumb/project-5.png" alt="portfolio" srcset=""
+                data-screenshots="img/portfolio/large/project-5/1.png">
+              <!-- view project btn  -->
+              <span class="view-project">view project</span>
+            </div>
+            <p class="portfolio-item-title">fitnes & gym</p>
+            <!-- portfolio item details start  -->
+            <div class="portfolio-item-details">
+              <div class="row">
+                <div class="description">
+                  <h3>project brief</h3>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, consequuntur voluptatum culpa
+                    vitae fugit doloremque reprehenderit minus esse ducimus quibusdam aperiam. Qui hic beatae quasi iste
+                    vel, distinctio ratione eius.</p>
+                </div>
+                <div class="info">
+                  <h3>project info</h3>
+                  <ul>
+                    <li>Date -<span>2020</span></li>
+                    <li>client -<span>xyz</span></li>
+                    <li>tools -<span>html, css, jquery</span></li>
+                    <li>web -<span><a href="#">www.domain.com</a></span></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <!-- portfolio item details start  -->
+          </div>
+        </div>
+        <!-- portfolio item end  -->
+        <!-- portfolio item start  -->
+        <div class="portfolio-item" data-category="web-application">
+          <div class="portfolio-item-inner outer-shadow">
+            <div class="portfolio-item-img">
+              <img src="img/portfolio/thumb/project-6.png" alt="portfolio" srcset=""
+                data-screenshots="img/portfolio/large/project-6/1.png,img/portfolio/large/project-6/2.png,img/portfolio/large/project-6/3.png">
+              <!-- view project btn  -->
+              <span class="view-project">view project</span>
+            </div>
+            <p class="portfolio-item-title">quiz application</p>
+            <!-- portfolio item details start  -->
+            <div class="portfolio-item-details">
+              <div class="row">
+                <div class="description">
+                  <h3>project brief</h3>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, consequuntur voluptatum culpa
+                    vitae fugit doloremque reprehenderit minus esse ducimus quibusdam aperiam. Qui hic beatae quasi iste
+                    vel, distinctio ratione eius.</p>
+                </div>
+                <div class="info">
+                  <h3>project info</h3>
+                  <ul>
+                    <li>Date -<span>2020</span></li>
+                    <li>client -<span>xyz</span></li>
+                    <li>tools -<span>html, css, javascript</span></li>
+                    <li>web -<span><a href="#">www.domain.com</a></span></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <!-- portfolio item details start  -->
+          </div>
+        </div>
+        <!-- portfolio item end  -->
+        <!-- portfolio item start  -->
+        <div class="portfolio-item" data-category="mobile-app">
+          <div class="portfolio-item-inner outer-shadow">
+            <div class="portfolio-item-img">
+              <img src="img/portfolio/thumb/project-7.png" alt="portfolio" srcset=""
+                data-screenshots="img/portfolio/large/project-7/1.png,img/portfolio/large/project-7/2.png">
+              <!-- view project btn  -->
+              <span class="view-project">view project</span>
+            </div>
+            <p class="portfolio-item-title">xyz application</p>
+            <!-- portfolio item details start  -->
+            <div class="portfolio-item-details">
+              <div class="row">
+                <div class="description">
+                  <h3>project brief</h3>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, consequuntur voluptatum culpa
+                    vitae fugit doloremque reprehenderit minus esse ducimus quibusdam aperiam. Qui hic beatae quasi iste
+                    vel, distinctio ratione eius.</p>
+                </div>
+                <div class="info">
+                  <h3>project info</h3>
+                  <ul>
+                    <li>Date -<span>2020</span></li>
+                    <li>client -<span>xyz</span></li>
+                    <li>tools -<span>java, android</span></li>
+                    <li>play Store -<span><a href="#">xyz</a></span></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <!-- portfolio item details start  -->
+          </div>
+        </div>
+        <!-- portfolio item end  -->
+        <!-- portfolio item start  -->
+        <div class="portfolio-item" data-category="photoshop">
+          <div class="portfolio-item-inner outer-shadow">
+            <div class="portfolio-item-img">
+              <img src="img/portfolio/thumb/project-8.png" alt="portfolio" srcset=""
+                data-screenshots="img/portfolio/large/project-8/1.png,img/portfolio/large/project-8/2.png">
+              <!-- view project btn  -->
+              <span class="view-project">view project</span>
+            </div>
+            <p class="portfolio-item-title">personal portfolio</p>
+          </div>
+        </div>
+        <!-- portfolio item end  -->
+      </div>
+      <!-- porfolio items end  -->
+    </div>
+  </section>
+  <!-- portfolio section End  -->
+  <!-- testimonial section start  -->
+  <section class="testimonial-section section" id="testimonial">
+    <div class="container">
+      <div class="row">
+        <div class="section-title">
+          <h2 data-heading="testimonial">Client Speak</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="testi-box">
+          <div class="testi-slider outer-shadow ">
+            <div class="testi-slider-container">
+              <!-- testi item start  -->
+              <div class="testi-item active">
+                <i class="fas fa-quote-left left"></i>
+                <i class="fas fa-quote-right right"></i>
+                <p>Fantastic service and great guy. We recommend to anyone who needs a website or web services.</p>
+                <img src="img/testimonial/sonu.png" alt="testimonial">
+                <span>Sonu Sharma</span>
+              </div>
+              <!-- testi item End  -->
+              <!-- testi item start  -->
+              <div class="testi-item ">
+                <i class="fas fa-quote-left left"></i>
+                <i class="fas fa-quote-right right"></i>
+                <p>Always available to help, incredibly proficient, hits deadlines without fail, hard working and trustworthy.</p>
+                <img src="img/testimonial/gora.png" alt="testimonial">
+                <span>Aashish Bisht</span>
+              </div>
+              <!-- testi item End  -->
+              <!-- testi item start  -->
+              <div class="testi-item ">
+                <i class="fas fa-quote-left left"></i>
+                <i class="fas fa-quote-right right"></i>
+                <p>great help managing a very out of date website. Everything we ask him to do is done quickly</p>
+                <img src="img/testimonial/manu.png" alt="testimonial">
+                <span>Manoj kumar</span>
+              </div>
+              <!-- testi item End  -->
+            </div>
+          </div>
+          <div class="testi-slider-nav">
+            <span class="prev outer-shadow hover-in-shadow"><i class="fas fa-angle-left"></i></span>
+            <span class="next outer-shadow hover-in-shadow"><i class="fas fa-angle-right "></i></span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- testimonial section End  -->
+  <!-- contact section start  -->
+  <section class="contact-section section" id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="section-title">
+          <h2 data-heading="contact">Get In Touch</h2>
+        </div>
+      </div>
+      <div class="row">
+        <!-- contact item start -->
+        <div class="contact-item">
+          <div class="contact-item-inner outer-shadow">
+            <i class="fas fa-phone"></i>
+            <span>Phone</span>
+            <p> 9716583541</p>
+          </div>
+        </div>
+        <!-- contact item End  -->
+        <!-- contact item start -->
+        <div class="contact-item">
+          <div class="contact-item-inner outer-shadow">
+            <i class="fas fa-envelope"></i>
+            <span>Email</span>
+            <p>sushilsaini514@gmail.com</p>
+          </div>
+        </div>
+        <!-- contact item End  -->
+        <!-- contact item start -->
+        <div class="contact-item">
+          <div class="contact-item-inner outer-shadow">
+            <i class="fas fa-map"></i>
+            <span>Address</span>
+            <p>House No-301 Mundka Delhi-110041</p>
+          </div>
+        </div>
+        <!-- contact item End  -->
+      </div>
+      <div class="row">
+        <div class="contact-form">
+          <form action="mail.php" method="POST">
+            <div class="row">
+              <div class="w-50">
+                <div class="input-group outer-shadow hover-in-shadow">
+                  <input type="text" placeholder="Name" name="name" class="input-control">
+                </div>
+                <div class="input-group outer-shadow hover-in-shadow">
+                  <input type="email" placeholder="Email" name="email" class="input-control">
+                </div>
+                <div class="input-group outer-shadow hover-in-shadow">
+                  <input type="text" placeholder="Subject" name="subject" class="input-control">
+                </div>
+              </div>
+              <div class="w-50">
+                <div class="input-group outer-shadow hover-in-shadow">
+                  <textarea name="" placeholder="Message" name="message" class="input-control" id="" cols="30" rows="10"></textarea>
 
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="submit-btn">
+                <button type="submit" value="send" class="btn-1 outer-shadow hover-in-shadow">Send Message</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- contact section End  -->
+  <!-- portfolio popup start  -->
+  <div class="pp portfolio-popup">
+    <div class="pp-details">
+      <div class="pp-details-inner">
+        <div class="pp-title">
+          <h2></h2>
+          <p>Category - <span class="pp-project-category"></span></p>
+        </div>
+        <div class="pp-project-details">
+        </div>
+      </div>
+    </div>
+    <div class="separator"></div>
+    <div class="pp-main">
+      <div class="pp-main-inner">
+        <div class="pp-project-details-btn outer-shadow hover-in-shadow">Project Details <i class="fas fa-plus"></i>
+        </div>
+        <div class="pp-close outer-shadow hover-in-shadow">&times; </div>
+        <img src="img/portfolio/large/project-1/1.png" alt="img" class="pp-img outer-shadow">
+        <div class="pp-counter"></div>
+      </div>
+      <div class="pp-loader">
+        <div></div>
+      </div>
+      <!-- pp navigation  -->
+      <div class="pp-prev"><i class="fas fa-play"></i></div>
+      <div class="pp-next"><i class="fas fa-play"></i></div>
+    </div>
+  </div>
+  <!-- portfolio popup end  -->
+  <!-- style switcher start - for demo purpose only  -->
+  <div class="style-switcher outer-shadow">
+    <div class="style-switcher-toggler s-icon outer-shadow hover-in-shadow">
+      <i class="fas fa-cog fa-spin"></i>
+    </div>
+    <div class="day-night s-icon outer-shadow hover-in-shadow">
+      <i class="fas"></i>
+    </div>
+    <h4> Theme Colors</h4>
+    <div class="colors">
+      <span class="color-1" onclick="setActiveStyle('color-1')"></span>
+      <span class="color-2" onclick="setActiveStyle('color-2')"></span>
+      <span class="color-3" onclick="setActiveStyle('color-3')"></span>
+      <span class="color-4" onclick="setActiveStyle('color-4')"></span>
+      <span class="color-5" onclick="setActiveStyle('color-5')"></span>
+    </div>
+  </div>
+  <!-- style switcher End -->
 
-
-
-	<!-- start footer Area -->
-	<footer class="footer-area section-gap">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-5 col-md-6 col-sm-6">
-					<div class="single-footer-widget">
-						<h4>About Me</h4>
-						<p>
-							Expert in developing Responsive & Interactive websites|Expert in CSS3, HTML5, Bootstrap, and
-							Angular JS|Very good knowledge of JavaScript, and JQuery
-						</p>
-						<p class="footer-text">
-							<!-- Link back to Sushil Saini can't be removed. -->
-							Copyright &copy;
-							<script>document.write(new Date().getFullYear());</script> All rights reserved |
-							<i class="fa fa-heart dil" aria-hidden="true"> </i> by <a href="#"
-								target="_blank">SUSHIL</a>
-							<!-- Link back to Sushil Saini can't be removed. -->
-						</p>
-					</div>
-				</div>
-				<div class="col-lg-5 col-md-6 col-sm-6">
-					<div class="single-footer-widget">
-						<h4>Newsletter</h4>
-						<p>Stay updated with Me latest trends Projects</p>
-						<div class="" id="mc_embed_signup">
-							<form target="_blank" action="" method="get">
-								<div class="input-group">
-									<input type="text" class="form-control" name="EMAIL"
-										placeholder="Enter Email Address" onfocus="this.placeholder = ''"
-										onblur="this.placeholder = 'Enter Email Address '" required="" type="email">
-									<div class="input-group-btn">
-										<button class="btn btn-default" type="submit">
-											<span class="lnr lnr-arrow-right"></span>
-										</button>
-									</div>
-									<div class="info"></div>
-								</div>
-							</form>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-2 col-md-6 col-sm-6 social-widget">
-					<div class="single-footer-widget">
-						<h4>Follow Me</h4>
-						<p>Let us be social</p>
-						<div class="footer-social d-flex align-items-center">
-							<a href="#"><i class="fa fa-facebook"></i></a>
-							<a href="#"><i class="fa fa-twitter"></i></a>
-							<a href="#"><i class="fa fa-dribbble"></i></a>
-							<a href="#"><i class="fa fa-behance"></i></a>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</footer>
-	<!-- End footer Area -->
-
-	<script src="js/vendor/jquery-2.2.4.min.js"></script>
-	<script src="js/popper.min.js"></script>
-	<script src="js/vendor/bootstrap.min.js"></script>
-	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBhOdIF3Y9382fqJYt5I_sswSrEw5eihAA"></script>
-	<script src="js/easing.min.js"></script>
-	<script src="js/hoverIntent.js"></script>
-	<script src="js/superfish.min.js"></script>
-	<script src="js/jquery.ajaxchimp.min.js"></script>
-	<script src="js/jquery.magnific-popup.min.js"></script>
-	<script src="js/jquery.tabs.min.js"></script>
-	<script src="js/jquery.nice-select.min.js"></script>
-	<script src="js/isotope.pkgd.min.js"></script>
-	<script src="js/waypoints.min.js"></script>
-	<script src="js/jquery.counterup.min.js"></script>
-	<script src="js/simple-skillbar.js"></script>
-	<script src="js/owl.carousel.min.js"></script>
-	<script src="js/mail-script.js"></script>
-	<script src="js/main.js"></script>
+  <!-- main js -->
+  <script src="js/main.js"></script>
+  <!-- style switcher js -->
+  <script src="js/style-switcher.js"></script>
 </body>
 
 </html>
